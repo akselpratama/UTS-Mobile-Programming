@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
     public void checklogin(View v) {
         final String email = emailEditText.getText().toString();
         switch (v.getId()) {
-            case R.id.lingkaranHitung:
+            case R.id.btnlogin:
                 hideKeybaord(v);
                 break;
         }
