@@ -50,45 +50,44 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:paddingBottom="30dp"
-        >
+        android:paddingBottom="30dp">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
-            android:text="Masukkan Panjang"
-            android:textSize="15sp"
-            android:textColor="#f8f8f8"
             android:fontFamily="@font/catamaran_bold"
-            />
+            android:text="Masukkan Panjang"
+            android:textColor="#f8f8f8"
+            android:textSize="15sp" />
+
         <EditText
+            android:id="@+id/persegiPanjang"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="number"
-            android:id="@+id/persegiPanjang"
             android:background="@drawable/style_button_white"
             android:fontFamily="@font/catamaran_medium"
-            android:paddingLeft="10dp"
-            />
+            android:inputType="number"
+            android:paddingLeft="10dp" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
+            android:fontFamily="@font/catamaran_bold"
             android:paddingTop="10dp"
             android:text="Masukkan Lebar"
-            android:textSize="15sp"
             android:textColor="#f8f8f8"
-            android:fontFamily="@font/catamaran_bold"
-            />
+            android:textSize="15sp" />
+
         <EditText
+            android:id="@+id/persegiLebar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:inputType="number"
-            android:id="@+id/persegiLebar"
             android:background="@drawable/style_button_white"
             android:fontFamily="@font/catamaran_medium"
-            android:paddingLeft="10dp"
-            />
+            android:inputType="number"
+            android:paddingLeft="10dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -96,18 +95,18 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         >
+
         <Button
+            android:id="@+id/persegiHitung"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/persegiHitung"
             android:layout_gravity="center"
-            android:text="HITUNG"
-            android:maxWidth="100dp"
             android:background="@drawable/style_button_purple"
             android:fontFamily="@font/catamaran_bold"
-            android:textSize="10dp"
+            android:maxWidth="100dp"
+            android:text="HITUNG"
             android:textColor="#fff"
-            />
+            android:textSize="10dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -129,6 +128,7 @@
             android:textColor="#f8f8f8"
             android:fontFamily="@font/catamaran_bold"
             />
+
         <TextView
             android:id="@+id/persegiHasilLuas"
             android:layout_width="match_parent"
@@ -136,8 +136,7 @@
             android:background="@drawable/style_button_white"
             android:fontFamily="@font/catamaran_bold"
             android:textAlignment="center"
-            android:textSize="20dp"
-            />
+            android:textSize="20dp" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
